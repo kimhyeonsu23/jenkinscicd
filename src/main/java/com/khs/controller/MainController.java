@@ -11,7 +11,7 @@ public class MainController {
 
 	@GetMapping
 	public String intro(Model model) {
-		model.addAttribute("greeting", "second commit");
+		model.addAttribute("greeting", "젠킨스 트리거");
 		return "intro";
 	}
 	
